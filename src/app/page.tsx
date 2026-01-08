@@ -587,7 +587,7 @@ export default function Home() {
         onClose={() => setNoteToDelete(null)}
         onConfirm={confirmDeleteNote}
         title="Delete Note"
-        description="This note will be moved to trash. All content and history will be permanently deleted after 30 days."
+        description=" All content and history will be permanently deleted"
         confirmText="Delete Forever"
         cancelText="Cancel"
         icon="danger"
